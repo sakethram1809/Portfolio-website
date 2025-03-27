@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Saketh Ram</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-mode">Day/Night</div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I’m  saketh ram a Web Developer passionate about creating interactive and responsive websites.</p>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img" width="200px" height="200px">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <button class="resume-btn">Download Resume</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="About Image" width="260px">
+            <p>I am a dedicated web developer with a passion for coding and design. I specialize in creating responsive and dynamic web applications.Iam eager to apply my skills to solve real-world problems. </p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar"><div style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar"><div style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div style="width: 70%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="cert-cards">
+            <div class="card">
+                <h3>Certificate of course completion in NPTEL</h3>
+                <p>I am certified in Data Analytics in Python from NPTEL, where I gained hands-on experience in data manipulation, analysis, and visualization using libraries like Pandas, NumPy, and Matplotlib. This certification highlights my skills in extracting insights and solving data-driven problems effectively.</p>
+                <button onclick="window.open('cert1.pdf')">View Certificate</button>
+            </div>
+            <div class="card">
+                <h3>Certificate of course completion in Udemy</h3>
+                <p>I am certified in Data Structures and Algorithms in Java from Udemy, where I gained practical knowledge of core DSA concepts, including arrays, linked lists, trees, graphs, and sorting algorithms. This certification highlights my ability to write efficient code and solve complex programming problems using Java.</p>
+                <button onclick="window.open('cert2.pdf')">View Certificate</button>
+            </div>
+            <div class="card">
+                <h3>Certificate of course completion by Microsoft</h3>
+                <p>I am certified in Fundamental AI Concepts from Microsoft, where I gained knowledge of core AI principles, including machine learning, natural language processing, and computer vision. This certification highlights my understanding of AI technologies and their practical applications.</p>
+                <button onclick="window.open('cert3.pdf')">View Certificate</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">TODO Application</div>
+            <div class="card">Spam news detection</div>
+            <div class="card">Atmospheric water generator</div>
+            <div class="card">AI chat bot</div>
+            <div class="card">Lip syncing AI</div>
+            <div class="card">Secure cloud encryption system</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Saketh Ram</p>
+        <a href="msakethram18@gmail.com">Email Me</a>
+        <a href="tel:7842461809">Call Me</a>
+    </footer>
+</body>
+</html>
